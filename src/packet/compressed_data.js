@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 import { Inflate, Deflate, Zlib, Unzlib } from 'fflate';
-import { isArrayStream, fromAsync as streamFromAsync, parse as streamParse, readToEnd as streamReadToEnd } from '@openpgp/web-stream-tools';
+import { isArrayStream, fromAsync as streamFromAsync, parse as streamParse, readToEnd as streamReadToEnd } from '@cyberclarence/web-stream-tools';
 import enums from '../enums';
 import util from '../util';
 import defaultConfig from '../config';

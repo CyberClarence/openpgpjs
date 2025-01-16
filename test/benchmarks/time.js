@@ -1,5 +1,5 @@
 import Benchmark from 'benchmark';
-import { readToEnd } from '@openpgp/web-stream-tools';
+import { readToEnd } from '@cyberclarence/web-stream-tools';
 import * as openpgp from 'openpgp';
 
 const wrapAsync = func => ({

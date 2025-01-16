@@ -23,7 +23,7 @@
 
 import { cfb as nobleAesCfb, unsafe as nobleAesHelpers } from '@noble/ciphers/aes';
 
-import { transform as streamTransform } from '@openpgp/web-stream-tools';
+import { transform as streamTransform } from '@cyberclarence/web-stream-tools';
 import util from '../../util';
 import enums from '../../enums';
 import { getLegacyCipher, getCipherParams } from '../cipher';

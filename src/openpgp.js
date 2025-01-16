@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { fromAsync as streamFromAsync, concat as streamConcat, transformPair as streamTransformPair, pipe as streamPipe, readToEnd as streamReadToEnd, getWriter as streamGetWriter } from '@openpgp/web-stream-tools';
+import { fromAsync as streamFromAsync, concat as streamConcat, transformPair as streamTransformPair, pipe as streamPipe, readToEnd as streamReadToEnd, getWriter as streamGetWriter } from '@cyberclarence/web-stream-tools';
 import { Message } from './message';
 import { CleartextMessage } from './cleartext';
 import { generate, reformat, getPreferredCompressionAlgo } from './key';

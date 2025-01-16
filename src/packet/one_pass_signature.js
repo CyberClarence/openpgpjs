@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { fromAsync as streamFromAsync } from '@openpgp/web-stream-tools';
+import { fromAsync as streamFromAsync } from '@cyberclarence/web-stream-tools';
 import SignaturePacket from './signature';
 import KeyID from '../type/keyid';
 import enums from '../enums';

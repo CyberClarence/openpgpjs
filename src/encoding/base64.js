@@ -15,7 +15,7 @@
  * @module encoding/base64
  */
 
-import { transform as streamTransform } from '@openpgp/web-stream-tools';
+import { transform as streamTransform } from '@cyberclarence/web-stream-tools';
 import util from '../util';
 
 const Buffer = util.getNodeBuffer();

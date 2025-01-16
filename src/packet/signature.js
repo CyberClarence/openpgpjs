@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { fromAsync as streamFromAsync, slice as streamSlice, readToEnd as streamReadToEnd, clone as streamClone, transform as streamTransform } from '@openpgp/web-stream-tools';
+import { fromAsync as streamFromAsync, slice as streamSlice, readToEnd as streamReadToEnd, clone as streamClone, transform as streamTransform } from '@cyberclarence/web-stream-tools';
 import { readSimpleLength, UnsupportedError, writeSimpleLength } from './packet';
 import KeyID from '../type/keyid';
 import { signature, serializeParams, getRandomBytes, getHashByteLength, computeDigest } from '../crypto';

@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { clone as streamClone, parse as streamParse } from '@openpgp/web-stream-tools';
+import { clone as streamClone, parse as streamParse } from '@cyberclarence/web-stream-tools';
 import { cipherMode, getRandomBytes } from '../crypto';
 import enums from '../enums';
 import util from '../util';

@@ -9,7 +9,7 @@
  *  - Errietta Kostala <https://github.com/errietta>
  */
 
-import type { WebStream as GenericWebStream, NodeWebStream as GenericNodeWebStream } from '@openpgp/web-stream-tools';
+import type { WebStream as GenericWebStream, NodeWebStream as GenericNodeWebStream } from '@cyberclarence/web-stream-tools';
 
 /* ############## STREAM #################### */
 type Data = Uint8Array | string;

@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { readToEnd as streamReadToEnd, clone as streamClone } from '@openpgp/web-stream-tools';
+import { readToEnd as streamReadToEnd, clone as streamClone } from '@cyberclarence/web-stream-tools';
 import { cipherMode, getCipherParams } from '../crypto';
 import enums from '../enums';
 import util from '../util';

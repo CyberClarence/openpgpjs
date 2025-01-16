@@ -22,7 +22,7 @@
  * @module util
  */
 
-import { concat as streamConcat, transform as streamTransform, concatUint8Array, isStream, isUint8Array } from '@openpgp/web-stream-tools';
+import { concat as streamConcat, transform as streamTransform, concatUint8Array, isStream, isUint8Array } from '@cyberclarence/web-stream-tools';
 import { createRequire } from 'module'; // Must be stripped in browser built
 import enums from './enums';
 import defaultConfig from './config';

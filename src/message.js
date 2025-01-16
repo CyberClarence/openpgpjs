@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { isArrayStream, cancel as streamCancel, readToEnd as streamReadToEnd, fromAsync as streamFromAsync, transformPair as streamTransformPair, getWriter as streamGetWriter, getReader as streamGetReader } from '@openpgp/web-stream-tools';
+import { isArrayStream, cancel as streamCancel, readToEnd as streamReadToEnd, fromAsync as streamFromAsync, transformPair as streamTransformPair, getWriter as streamGetWriter, getReader as streamGetReader } from '@cyberclarence/web-stream-tools';
 import { armor, unarmor } from './encoding/armor';
 import { Argon2OutOfMemoryError } from './type/s2k';
 import defaultConfig from './config';

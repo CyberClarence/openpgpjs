@@ -5,7 +5,7 @@
  * @module crypto/hash
  */
 
-import { transform as streamTransform, isArrayStream, readToEnd as streamReadToEnd } from '@openpgp/web-stream-tools';
+import { transform as streamTransform, isArrayStream, readToEnd as streamReadToEnd } from '@cyberclarence/web-stream-tools';
 import util from '../../util';
 import enums from '../../enums';
 

@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { slice as streamSlice, passiveClone as streamPassiveClone, readToEnd as streamReadToEnd, concat as streamConcat, fromAsync as streamFromAsync, getReader as streamGetReader, getWriter as streamGetWriter, clone as streamClone, pipe as streamPipe, transformPair as streamTransformPair, isArrayStream, parse as streamParse } from '@openpgp/web-stream-tools';
+import { slice as streamSlice, passiveClone as streamPassiveClone, readToEnd as streamReadToEnd, concat as streamConcat, fromAsync as streamFromAsync, getReader as streamGetReader, getWriter as streamGetWriter, clone as streamClone, pipe as streamPipe, transformPair as streamTransformPair, isArrayStream, parse as streamParse } from '@cyberclarence/web-stream-tools';
 import { cipherMode, getRandomBytes, getCipherParams, computeDigest } from '../crypto';
 import computeHKDF from '../crypto/hkdf';
 import enums from '../enums';

@@ -20,7 +20,7 @@
  * @module packet/packet
  */
 
-import { ArrayStream, getWriter as streamGetWriter, getReader as streamGetReader } from '@openpgp/web-stream-tools';
+import { ArrayStream, getWriter as streamGetWriter, getReader as streamGetReader } from '@cyberclarence/web-stream-tools';
 import enums from '../enums';
 import util from '../util';
 

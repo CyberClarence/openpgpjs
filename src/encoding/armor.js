@@ -15,7 +15,7 @@
 // License along with this library; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-import { transform as streamTransform, transformPair as streamTransformPair, getReader as streamGetReader, getWriter as streamGetWriter, isArrayStream, readToEnd as streamReadToEnd, passiveClone as streamPassiveClone } from '@openpgp/web-stream-tools';
+import { transform as streamTransform, transformPair as streamTransformPair, getReader as streamGetReader, getWriter as streamGetWriter, isArrayStream, readToEnd as streamReadToEnd, passiveClone as streamPassiveClone } from '@cyberclarence/web-stream-tools';
 import { encode as encodeBase64, decode as decodeBase64 } from './base64';
 import enums from '../enums';
 import util from '../util';

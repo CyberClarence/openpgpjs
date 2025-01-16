@@ -14,6 +14,7 @@ import typescript from '@rollup/plugin-typescript';
 // ESlint does not support JSON module imports yet, see https://github.com/eslint/eslint/discussions/15305
 // import pkg from './package.json' assert { type: 'json' };
 const pkg = JSON.parse(readFileSync('./package.json'));
+pkg.name ="openpgp"
 
 const nodeDependencies = Object.keys(pkg.dependencies || {});
 const nodeBuiltinModules = builtinModules.concat(['module']);
@@ -178,6 +179,7 @@ export default Object.assign([
       'dist' // Don't build test bundle by default.
     );
   });
+
   return config.output.length;
 }), {
   allow_empty: true // Fake option to trick rollup into accepting empty config array when filtered above.

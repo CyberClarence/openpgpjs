@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
 /* globals tryTests, loadStreamsPolyfill */
 import sinon from 'sinon';
-import * as stream from '@openpgp/web-stream-tools';
+import * as stream from '@cyberclarence/web-stream-tools';
 import { use as chaiUse, expect } from 'chai';
 import chaiAsPromised from 'chai-as-promised'; // eslint-disable-line import/newline-after-import
 chaiUse(chaiAsPromised);

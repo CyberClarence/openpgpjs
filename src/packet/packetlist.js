@@ -1,4 +1,4 @@
-import { transformPair as streamTransformPair, transform as streamTransform, getWriter as streamGetWriter, getReader as streamGetReader, clone as streamClone } from '@openpgp/web-stream-tools';
+import { transformPair as streamTransformPair, transform as streamTransform, getWriter as streamGetWriter, getReader as streamGetReader, clone as streamClone } from '@cyberclarence/web-stream-tools';
 import {
   readPackets, supportsStreaming,
   writeTag, writeHeader,
